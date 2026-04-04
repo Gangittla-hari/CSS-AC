@@ -1,0 +1,85 @@
+
+h1{
+    color: blue ;
+}
+h3{
+    background-color: salmon !important;
+}
+
+button:hover{
+    background-color: yellow;
+    color: red;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+button:active {
+    background-color: pink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: orange;
+}
+
+div:nth-of-type(3n) {
+    background-color: lightpink;
+}
+
+h1::first-letter {
+    color:red;
+}
+p::first-line {
+    color:red;
+}
+p::selection{
+    background-color: chartreuse;
+}
+
+h1{
+    background-color: lightyellow;
+}
+
+h1{
+    background-color: lightblue;
+}
+
+QA1
+h4 {
+    color: aqua;
+}
+#great {
+    color: purple;
+}
+.myclass {
+    color: red;
+}
+QA2
+div p{ 
+     background-color: lightgreen;
+}
+.para {
+     background-color: lightseagreen;
+}
+p {
+    background-color: aliceblue;
+}
+
+QA3- For the given html & css code, what is color of text "hello world" ?.
+div.greetdiv .greet {
+    color: green;
+}
+.greetdiv p.greey {
+    color:blue;
+}
+.greetdiv .greet {
+    color:red;
+}
