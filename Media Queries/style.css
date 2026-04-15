@@ -26,3 +26,15 @@ div {
     }
  }
 
+ @media (min-width: 200px) and (max-width: 300px) {
+    h1{
+        background-color: magenta;
+    }
+ }
+
+ @media (orientation: landscape) {
+    h1 {
+        baground-color: aqua;
+        color:  brown;
+    }
+ }
